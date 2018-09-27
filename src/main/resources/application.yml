@@ -1,0 +1,12 @@
+cloud:
+  aws:
+    credentials:
+      instanceProfile: false
+    region:
+      auto: false
+      static: us-east-1
+    queue:
+      test:
+        url: https://sqs.us-east-1.amazonaws.com/746213696263/hibicode-first-queue
+        endpoint: sqs.us-east-1.amazonaws.com/746213696263
+        name: hibicode-first-queue
